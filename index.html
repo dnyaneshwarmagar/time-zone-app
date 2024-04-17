@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="user_zone_div">
+        <p class="font_hundred">TimeZone API</p>
+        <p class="font_hundred">Your Current Time Zone</p>
+        <div id="user_zone_info_div">
+            <p>Name Of Time Zone :</p>
+            <p style="display: flex;justify-content: space-between;"><span style="width: 48%;">Lat:</span> <span style="width: 48%;">Long:</span></p>
+            <p>Offset STD:</p>
+            <p>Offset STD Seconds :</p>
+            <p>Offset DST :</p>
+            <p>Offset DST Seconds:</p>
+            <p>Country:</p>
+            <p>Postcode:</p>
+            <p>City:</p>
+        </div>
+    </div>
+    <div id="input_div">
+        <form id="input_form">
+        <p class="font_hundred">Enter Address</p>
+        <input type="text" placeholder="Address" id="address_input">
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    </div>
+    <div id="address_zone_div">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
